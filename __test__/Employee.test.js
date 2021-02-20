@@ -26,8 +26,8 @@ test('creates an employee object', () => {
     let employee = new Employee('Erika', 12345, 'applesauce@abc123.com');
     expect(employee.getEmail()).toEqual(expect.stringContaining('@'));
   });
-s
-  test('checks if they are an employee', () => {
+
+  test('checks if they are an employee using getRole', () => {
     let employee = new Employee('Erika', 12345, 'applesauce@abc123.com');
     expect(employee.getRole()).toBe('Employee');
   });
