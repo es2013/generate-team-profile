@@ -9,8 +9,8 @@ const generateHTML = data => {
                     <div class="card-body bg-info">
                       <h4 class="card-title">${employee.name}, Manager</h4>
                       <p class="card-text">ID: ${employee.id}</p>
-                      <p class="card-text">: Email: ${employee.email}</p>
-                      <p class="card-text">: Office Phone number: ${employee.officeNumber}</p>
+                      <p class="card-text">Email: ${employee.email}</p>
+                      <p class="card-text">Office Phone number: ${employee.officeNumber}</p>
                     </div>
                     </div>
                     <div>
